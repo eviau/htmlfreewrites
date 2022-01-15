@@ -26,19 +26,25 @@ nav{
     margin-top: 5vh;
     background-color: white;
     }
-
-.content{
+    
+footer{
     padding: 1%;
-    max-width: 750px;
+    max-width: 500px;
     border: solid black;
     border-radius: 5px;
     margin-top: 5vh;
     background-color: white;
     }
     
-footer{
+img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+
+.content{
     padding: 1%;
-    max-width: 500px;
+    max-width: 750px;
     border: solid black;
     border-radius: 5px;
     margin-top: 5vh;
