@@ -1,0 +1,46 @@
+body{
+    align-items: center;
+    padding: 5%;
+    font-family: sans;
+    background-color: #b5d1cc;
+    font-size: 18px;
+    }
+    
+a{
+    color: black;
+    }
+
+
+header{
+    max-width: 750px;
+    border: solid black;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: white;
+    }
+
+nav{
+    max-width: 300px;
+    border: solid black;
+    padding: 1%; 
+    margin-top: 5vh;
+    background-color: white;
+    }
+
+.content{
+    padding: 1%;
+    max-width: 750px;
+    border: solid black;
+    border-radius: 5px;
+    margin-top: 5vh;
+    background-color: white;
+    }
+    
+footer{
+    padding: 1%;
+    max-width: 500px;
+    border: solid black;
+    border-radius: 5px;
+    margin-top: 5vh;
+    background-color: white;
+    }
