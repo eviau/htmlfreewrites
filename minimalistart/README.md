@@ -4,7 +4,7 @@
 
 a few notes on how to make this website yours :sparkles:
 
-![visualisation of the minimalist art website](./minimalistart_demo.png)
+<img alt="visualisation of the minimalist art website" src="./minimalistart_demo.png" width="250px">
 
 ## references
 
