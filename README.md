@@ -10,6 +10,6 @@ available at [https://eviau.net/htmlfreewrites/minimalistart/minimalistart.html]
 
 ## second example: minimalist field recording
 
-<img alt="visualisation of the minimalist field recording website" src="./minimalistfieldrecording/minimalistfireldrecording.png" width="250px">
+<img alt="visualisation of the minimalist field recording website" src="./minimalistfieldrecording/minimalistfieldrecording.png" width="250px">
 
 available at [https://eviau.net/htmlfreewrites/minimalistfieldrecording/minimalistfieldrecording.html](https://eviau.net/htmlfreewrites/minimalistfieldrecording/minimalistfieldrecording.html) and the code is in the `minimalistfieldrecording` folder of this repo. 
