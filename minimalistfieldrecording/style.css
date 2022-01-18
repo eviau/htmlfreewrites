@@ -2,6 +2,36 @@ body, header, div, footer{
     display: flex;
     align-items: end;
     flex-direction: column;
+    margin-right: 3%;
     }
     
+body{
+    background-color: #000831;
+    color: black;
+    font-family: sans;
+    }
+    
+a{
+    color: #000831;
+    }
+    
+h1{
+    font-size: 5vh;}
 
+iframe{
+    color: #b5d1cc;
+    }
+
+
+.content, header, footer{
+    background-color: #b5d1cc;
+    box-shadow: 10px 10px 2px 1px #96bfe6;
+    margin-top: 5%;
+    padding: 5px 25px 5px 25px;
+    border-radius: 3px;
+    }
+    
+footer{
+    margin-bottom: 25%;
+    }
+    
