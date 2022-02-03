@@ -34,7 +34,9 @@ I think it's possible to make interesting, tiny websites with only a little HTML
 
 Now, let's take a look at how you could use this current template to make a website that feels like home for you :sparkles:
 
-The **knob** tag will be used every time a possible change is mentionned.
+## adapting this template to your needs: knobs
+
+The <a id="knobs" href="#knobs">knob</a> [⇨](#0-knob) keyword will be used every time a possible change is mentionned, with arrows that allow you to move from one knob to another.
 
 ## let's get started !
 
@@ -74,7 +76,7 @@ I often start writing a webpage from [a draft for a basic HTML page, like this o
 
 ```
 
-Then, I add `lang="en"` or `lang="fr"` to the `<html>` tag to specify the language. You can **knob** this to the language you wish; see [the MDN docs for more info](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang).
+Then, I add `lang="en"` or `lang="fr"` to the `<html>` tag to specify the language. You can [⇦](#knobs) <a id="0-knob" href="#0-knob">knob</a> [⇨](#1-knob) this to the language you wish; see [the MDN docs for more info](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang).
 
 ### `<head>` tag
 
@@ -94,7 +96,7 @@ We also tell where the CSS file `style.css` can be found and add it to the websi
 <link rel="stylesheet" href="style.css">
 ```
 
-And finally, we have a **knob**: we change the content of the `<title>` tag for the one we wish for our website. In this case, it is "a simple webpage for minimalist art", but you can definitely change this to match your desires.
+And finally, we have a [⇦](#0-knob) <a id="1-knob" href="#1-knob">knob</a> [⇨](#2-knob): we change the content of the `<title>` tag for the one we wish for our website. In this case, it is "a simple webpage for minimalist art", but you can definitely change this to match your desires.
 
 That's it for the `<head>` tag!
 
@@ -106,9 +108,9 @@ The `<body>` tag contains four types of tags, namely the `<header>`, the `<nav>`
 
 In the header, we briefly describe what the website. Find [more information on the `<header>` tag on MDN docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
-Let's start with the level-1 heading, the `<h1>` tag. Headings help make your website accessible if you use them correctly. You can find [info about accessibility and headings on w3.org](https://www.w3.org/WAI/tutorials/page-structure/headings/). So, what is the main heading of your website? Here we have a **knob**: change the content of this tag.
+Let's start with the level-1 heading, the `<h1>` tag. Headings help make your website accessible if you use them correctly. You can find [info about accessibility and headings on w3.org](https://www.w3.org/WAI/tutorials/page-structure/headings/). So, what is the main heading of your website? Here we have a [⇦](#1-knob) <a id="2-knob" href="#2-knob">knob</a> [⇨](#3-knob): change the content of this tag.
 
-The next tags are two paragraphs, denoted by the `<p>` tags. **Knob**: Say a thing or two about your website. You can add more paragraphs if you wish; you can add links by using the `<a>` tag. You can also decide that there will be no paragraphs at all!
+The next tags are two paragraphs, denoted by the `<p>` tags. [⇦](#2-knob) <a href="#3-knob" id="3-knob">knob</a> [⇨](#4-knob): Say a thing or two about your website. You can add more paragraphs if you wish; you can add links by using the `<a>` tag. You can also decide that there will be no paragraphs at all!
 
 And this closes the `<header>` tag content.
 
@@ -118,7 +120,7 @@ This menu is all about providing [navigation links - MDN docs](https://developer
 
 We add a level 2 header with `<h2>` that mentions that this is the menu, and then we add links to the other `<h2>` on the page.
 
-Here is an **(optional) knob**: maybe you want one more or one less section - maybe you want to rename them? Change the content of the `<a>` tags to reflect this. Note that each navigation link is separated by a `&mdash` string - this will be rendered as `&`.
+Here is an [⇦](#3-knob) <a href="#4-knob" id="4-knob">(optional) knob</a> [⇨](#5-knob): maybe you want one more or one less section - maybe you want to rename them? Change the content of the `<a>` tags to reflect this. Note that each navigation link is separated by a `&mdash` string - this will be rendered as `&`.
 
 Note that the `href` specified in the links are related to the heading with the specified `id`! The `<a href="#section-title">Section title</a>` tag will be a link to the `<h2 id="section-title">Section title</h2>` heading. See the [section on document fragment](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#document_fragments) on MDN docs.
 
@@ -130,7 +132,7 @@ Here, we use `class` instead of `id` because we will be making a few `<div>`s wi
 
 Each `<div>` starts with a `<h2>` heading that also has an `id` corresponding to one of the navigation link created in the previous section.
 
-The next **knob** is to make sure that all the navigation links point to a section. For each `<a href="#a-section">` link that you have in the navigation menu, make sure there is a corresponding `<div>`. It should at least be the following:
+The next [⇦](#4-knob) <a href="#5-knob" id="5-knob">knob</a> [⇨](#6-knob) is to make sure that all the navigation links point to a section. For each `<a href="#a-section">` link that you have in the navigation menu, make sure there is a corresponding `<div>`. It should at least be the following:
 
 ```
 <div class="content">
@@ -142,13 +144,13 @@ On the original minimalist art website, there are three such sections: `#stateme
 
 * `#statement`
 
-The **knob** here is to write down your artist's statement. It can be tiny or more in depth; add `<p>` tags as you see fit.
+The [⇦](#5-knob) <a href="#6-knob" id="6-knob">knob</a> [⇨](#7-knob) here is to write down your artist's statement. It can be tiny or more in depth; add `<p>` tags as you see fit.
 
 * `#works`
 
 This section is about showcasing your work. Each work is structured with a heading, a description, and a picture.
 
-There are a few **knobs** on this section to allow you to show your work and not the placeholder images and description.
+There are a few [⇦](#6-knob) <a href="#7-knob" id="7-knob">knobs</a> [⇨](#8-knob) on this section to allow you to show your work and not the placeholder images and description.
 
 First, add an image of you work to the same folder as the one that contains the HTML webpage. Then, update the `<img>` tag with the name of this file. Let's say the name of your image is `image.jpg`. Then, the following tag:
 
@@ -168,7 +170,7 @@ Third, add a description of the work in the `<p>` tag, mentionning the medium, w
 
 Finally, update the `<h3>` heading to reflect the work you are showcasing; it could be the title of the work, including the year of creation.
 
-Another **knob** here is to add as many of these `<h3>` tags with the accompanying `<img>` as you want!
+Another [⇦](#7-knob) <a href="#8-knob" id="8-knob">knob</a> [⇨](#9-knob) here is to add as many of these `<h3>` tags with the accompanying `<img>` as you want!
 
 Now, let's tell people how to contact you.
 
@@ -176,13 +178,13 @@ Now, let's tell people how to contact you.
 
 The last `<div class="content">` contains your contact information.
 
-**Knob**: Let people know how to get in touch with you by adding your own email instead of the placeholder one: change the `email@example.com` address to the one you want to use.
+[⇦](#8-knob) <a href="#9-knob" id="9-knob">knob</a> [⇨](#10-knob): Let people know how to get in touch with you by adding your own email instead of the placeholder one: change the `email@example.com` address to the one you want to use.
 
 We are done adapting the content of the website! Good job!
 
 #### `<footer>` 
 
-Any other closing information you want to add can go here. I added the license to this section. A possible **knob** could be to add the place you are writing from, the current year or the date of the last time the site was updated.
+Any other closing information you want to add can go here. I added the license to this section. A possible [⇦](#9-knob) <a href="#10-knob" id="10-knob">knob</a> [⇨](#11-knob) could be to add the place you are writing from, the current year or the date of the last time the site was updated.
 
 This closes the HTML page - let's go the CSS side!
 
@@ -192,7 +194,7 @@ We are now ready to change the style of the website, adding colours and picking 
 
 ### body
 
-The two main **knobs** here are the following attributes:
+The two main [⇦](#10-knob) <a href="#11-knob" id="11-knob">knobs</a> [⇨](#12-knob) here are the following attributes:
 
 * `font-family`: if you want a tiny website, pick a font from the ones that are usually available on all web browsers - here is a [list of fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family#values)
 * `background-colour`: this is maybe the one change you really want to make to customize this website! You might want to read about [HTML colors codes and names](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
@@ -201,11 +203,11 @@ You can also try changing the other attributes! Learn more about them on the MDN
 
 ### a
 
-The `color` attribute will change the color of any `<a>` tag item on the HTML page. This is a **knob**, as long as you make sure that the contrast with the background color doesn't make your links difficult to see. More info on [accessibility and constrat](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast).
+The `color` attribute will change the color of any `<a>` tag item on the HTML page. This is a [⇦](#11-knob) <a href="#12-knob" id="12-knob">knob</a> [⇨](#13-knob), as long as you make sure that the contrast with the background color doesn't make your links difficult to see. More info on [accessibility and constrat](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Perceivable/Color_contrast).
 
 ### header, footer, nav and .content
 
-The main **knobs** are :
+The main (and last!) [⇦](#12-knob) <a href="#13-knob" id="13-knob">knobs</a> are :
 
 * `border` : this changes the style of the border element of the header. Read the [MDN docs for border options](https://developer.mozilla.org/en-US/docs/Web/CSS/border).
 * `border-radius` with a positive value makes for rounded corner.
@@ -215,7 +217,7 @@ Read on the MDN docs website to learn more about the other attributes.
 
 ### img
 
-There are no knobs here, only a note: it is the `max-width: 100%` and `height: auto` combination that allows the `<img>` content to scale accordingly to the size of the container. Read more about this on [this MDN docs page about preserving aspect-ratio of images](https://developer.mozilla.org/en-US/docs/Web/Media/images/aspect_ratio_mapping).
+Note: it is the `max-width: 100%` and `height: auto` combination that allows the `<img>` content to scale accordingly to the size of the container. Read more about this on [this MDN docs page about preserving aspect-ratio of images](https://developer.mozilla.org/en-US/docs/Web/Media/images/aspect_ratio_mapping).
 
 We are done adapting the style of the website! Wonderful :)
 
